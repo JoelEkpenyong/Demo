@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8321050241.js" crossorigin="anonymous"></script>
+    <title>Twitter. It's what's happening</title>
+<style>
+
+
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:1fr 1fr ;
+grid-template-rows: 94vh 6vh;
+font-family: Helvetica;
+}
+
+.container .left{
+    background: linear-gradient( 45deg, #2bc4ff, #008abe);
+    grid-column: 1/ 2;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.container .left ul li{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 50px 0px ;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica;
+
+}
+
+.container .left ul li .icon{
+ font-size:29px;
+ margin-right:10px;
+}
+
+.container .right{
+    background-color: white;
+    grid-column: 2/ -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .card{
+min-width: 300px;
+padding:0px 150px;
+}
+
+.container .right .card .head{
+display: flex;
+justify-content:space-between;
+}
+
+.container .right .card h1{
+font-size: 27px;
+line-height: 32px;
+color: black;
+}
+
+.container .right .card p{
+font-size: 16px;
+font-weight: bold;
+color: black;
+}
+
+.container .right .card .head .logo{
+font-size: 3em;
+color: #00bfff;
+}
+
+.container .bottom {
+    background-color:white;
+    grid-column: 1/ -1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e6ecf0;
+}
+
+.container .bottom ul{
+    text-align: center;
+}
+
+.container .bottom ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.container .bottom ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#aab8c2;
+    
+}
+
+.container .bottom ul li a:hover{
+    text-decoration: underline;
+}
+
+.bbtn{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.bbtn:hover{
+    background-color:#0680a8c7;
+}
+
+
+.wbtn{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.wbtn:hover{
+    background-color: #edf9fd;
+}
+
+.block{
+width: 100%;
+margin-bottom: 1em;
+}
+
+.primary{
+    background-color:#00bfff;
+    color: white;
+}
+
+.outline{
+    background-color: white;
+color:#00bfff;
+border-style:solid;
+border-width: 1px;
+border-color: #00bfff;
+}
+
+</style>
+    
+</head>
+<body>
+ 
+<div class="container">
+    <div class="left">
+        <ul>
+            <li>
+                <i class="fa fa-search icon"></i>
+            Follow your interests.
+            </li>
+
+            <li>
+                    <i class="fas fa-user-friends icon"></i>
+                Hear what people are talking about.</li>
+            
+            <li>
+                    <i class="far fa-comment icon"></i>
+                Join the conversation.</li>
+        </ul>
+    </div>
+    <div class="right">
+<div class="card">
+    <div class="head">
+            <i class="fab fa-twitter logo"></i>
+            <button class="wbtn outline">Log in</button>
+    </div>
+    <h1>See what’s happening in the world right now</h1>
+    <p>Join Twitter today.</p>
+    <button class="bbtn primary block">Sign up</button>
+    <button class="wbtn outline block">Log in</button>
+</div>
+    </div>
+    <div class="bottom">
+<ul>
+    <li>
+        <a href="#">About</a>
+    </li>
+    <li>
+        <a href="#">Help Center</a>
+    </li>
+    <li>
+        <a href="#">Blog</a>
+    </li>
+    <li>
+        <a href="#">Status</a>
+    </li>
+    <li>
+        <a href="#">Jobs</a>
+    </li>
+    <li>
+        <a href="#">Terms</a>
+    </li>
+    <li>
+        <a href="#">Privacy Policy</a>
+    </li>
+    <li>
+        <a href="#">Cookies</a>
+    </li>
+    <li>
+        <a href="#">Ads info</a>
+    </li>
+    <li>
+        <a href="#">Brand</a>
+    </li>
+    <li>
+        <a href="#">Apps</a>
+    </li>
+    <li>
+        <a href="#">Advertiser</a>
+    </li>
+    <li>
+        <a href="#">Marketing</a>
+    </li>
+    <li>
+        <a href="#">Businesses</a>
+    </li>
+    <li>
+        <a href="#">Developers</a>
+    </li>
+    <li>
+        <a href="#">Directory</a>
+    </li>
+    <li>
+        <a href="#">Settings</a>
+    </li>
+    <li>
+        <a href="#">&copy; 2018 Twitter</a>
+    </li>
+</ul>
+
+
+
+    </div>
+</div>    
+
+
+</body>
+</html>
